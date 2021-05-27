@@ -65,11 +65,11 @@ public class Juego extends javax.swing.JFrame {
         // que será la inicial del proyecto
         ImageIcon imgDemeter = new ImageIcon("imagenes/demeter.png");
         // Por cada boton de la lista de botones
-        for (JButton boton : botones) {
-            // Llamaremos al método ponerImagenesABotones y le meteremos la 
-            // lista de String que contiene las rutas y el JButton llamado boton
-            ponerImagenesABotones(rutas, boton);
-        }
+//        for (JButton boton : botones) {
+//            // Llamaremos al método ponerImagenesABotones y le meteremos la 
+//            // lista de String que contiene las rutas y el JButton llamado boton
+//            ponerImagenesABotones(rutas, boton);
+//        }
 
         //Inicializamos acertadas
         acertadas = new ArrayList<>();
